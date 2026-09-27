@@ -5,11 +5,11 @@ html {
 }
 
 body {
-  background-color: #b6b6b6;
+  background-color: #c2bbb3;
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #ffffff;
+  color: #fff;
   animation: fadeIn 0.4s ease-out;
 }
 
@@ -88,15 +88,9 @@ h1 img {
   padding: 40px;
 }
 
-.about p{
-  margin: 8px 0;
-}
-
 .about img {
   width: 240px;
-  gap: 10px;
 }
-
 
 
 
@@ -246,12 +240,6 @@ small {
 .hamburger.is-open span:last-child {
   transform: translateY(-4.5px) rotate(-45deg);
 }
- 
-.about img {
-  width: 160px;
-  gap: 10px;
-}
-
 
 /* ここから2ページ目 */
 /* 当サロンについて */
