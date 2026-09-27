@@ -246,30 +246,12 @@ small {
 .hamburger.is-open span:last-child {
   transform: translateY(-4.5px) rotate(-45deg);
 }
- .menu {
-  width: 80%;
-  }
-
-.menu ul {
-  flex: 1;
-  flex-direction: column;
-  gap: 40px;
+ 
+.about img {
+  width: 160px;
+  gap: 10px;
 }
 
-.menu li {
-  flex: 100%;
-}
-
-.price h3,
-  .price_row {
-    width: 80%;
-  }
-  
-
-
-  .information {
-    padding-bottom: 0;
-  }
 
 /* ここから2ページ目 */
 /* 当サロンについて */
