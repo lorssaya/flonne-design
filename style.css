@@ -7,7 +7,7 @@ html {
 body {
   background-color: #c2bbb3;
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   color: #fff;
   animation: fadeIn 0.4s ease-out;
@@ -29,6 +29,14 @@ body.is-open {
 
 h1 {
   text-align: center;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h3 {
+  font-weight: 200;
 }
 
 header h1{
@@ -78,18 +86,18 @@ h1 img {
   margin-top: 8px;
 }
 
-
 .about {
   text-align: center;
-  padding-bottom: 40px;
 }
 
-.about h2 {
-  padding: 40px;
+.about div {
+  display: inline-flex;
+  gap: 4px;
 }
 
 .about img {
   width: 240px;
+  height: auto;
 }
 
 
@@ -240,6 +248,24 @@ small {
 .hamburger.is-open span:last-child {
   transform: translateY(-4.5px) rotate(-45deg);
 }
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .about div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .about img {
+    width: 40%;
+  }
 
 /* ここから2ページ目 */
 /* 当サロンについて */
